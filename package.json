@@ -1,0 +1,17 @@
+{
+  "name": "lab-assignment_3",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "start": "node jsfile2.js",
+  "dev": "nodemon jsfile2.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
