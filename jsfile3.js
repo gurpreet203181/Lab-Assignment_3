@@ -10,7 +10,10 @@ let items = [{ id: 1, name: 'Item1' }];
 app.post('/items', (req, res) => {
     const newItem = { id: items.length + 1, name: req.body.name };
     items.push(newItem);
-    res.status(201).json(newItem);
+    res.status(201).json({
+        message: 'Data added successfully',
+        data: newItem
+    });
 });
 
 // READ
